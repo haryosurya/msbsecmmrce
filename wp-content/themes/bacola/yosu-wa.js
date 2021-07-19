@@ -15,7 +15,7 @@
                 $( '.woocommerce-error' ).hide();
                 $( '#customer_details' ).hide();
                 $( '#wa-checkout' ).remove();
-                checkout_form.append( '<input type="hidden" name="security" value="'+solusipress.security+'">' );
+                checkout_form.append( '<input type="hidden" name="security" value="'+yosu.security+'">' );
                 checkout_form.block({
                     message: null,
                     overlayCSS: {
@@ -25,7 +25,7 @@
                 });                           
                 var send_data = checkout_form.serialize();
                 $.ajax( {
-                    url: solusipress.ajaxurl+'?action=wa-checkout',
+                    url: yosu.ajaxurl+'?action=wa-checkout',
                     type: 'POST',
                     data: send_data,
                     dataType: 'json',
@@ -47,7 +47,7 @@
                                 document.location = response.redirect;
                                 window.clearInterval(redirect);      
                               	checkout_form.unblock();
-                            }, 3000 );
+                            }, 2000 );
                         }, 500 );
                     }
                 } );

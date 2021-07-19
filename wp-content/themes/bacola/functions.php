@@ -620,7 +620,50 @@ function bacola_get_option(){
 
 	return esc_html($getopt);
 }
+/*************************************************
+## redirect wa
+*************************************************/
 
+
+function isMobile() {
+	return preg_match("/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i", $_SERVER["HTTP_USER_AGENT"]);
+}
+
+
+add_action('admin_menu', 'wooWhatsAppAdminMenu');
+function wooWhatsAppAdminMenu(){
+   add_submenu_page('woocommerce', 'Woo WhatsApp Joss Mantap Crot', 'WooWhatsAppJosz', 'manage_options', 'woo_whatsapp_admin', 'wooWhatsAppAdminPage' );
+}
+function wooWhatsAppAdminPage()
+{
+   require_once get_template_directory() .'/includes/admin-display.php';
+}
+// add_action('template_redirect', 'action_checkout_order_processed');
+// function action_checkout_order_processed( $order_id ) { 
+//    // get an instance of the order object
+// 	global $wp;
+// 	global $woocommerce;
+// 	if ( is_checkout() && !empty( $wp->query_vars['order-received'] ) ) {
+
+// 		$order =  $order_id;
+// 		$id=WC()->order->id;
+// 		$content = json_decode($order).$id;
+// 		$phoneNumber = get_option('woo_wa_phone_number');
+		
+// 		// If the user is on a mobile device, redirect them
+// 		if(isMobile()){
+// 				$link = "https://wa.me/.'$phoneNumber'.?text=$content";
+// 		}
+// 		else{
+// 				$link = "https://web.whatsapp.com/send?phone=.'$phoneNumber'.&text=$content";
+// 		}
+
+//    // Do something
+// 		header("Location: $link");
+// 		exit;
+// 	}
+   
+// }
 /*************************************************
 ## Bacola Theme options
 *************************************************/

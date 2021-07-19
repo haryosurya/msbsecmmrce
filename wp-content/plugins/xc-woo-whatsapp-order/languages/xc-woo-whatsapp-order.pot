@@ -1,0 +1,466 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Woocommerce Orders on Whatsapp\n"
+"POT-Creation-Date: 2019-10-28 18:29+0530\n"
+"PO-Revision-Date: 2019-10-28 18:29+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: xc-woo-whatsapp-order.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-xc-woo-whatsapp-order-admin.php:118
+msgid "settings"
+msgstr ""
+
+#: admin/class-xc-woo-whatsapp-order-admin.php:118 admin/options-init.php:151
+msgid "Settings"
+msgstr ""
+
+#: admin/licence/Puc/v4p4/Plugin/Ui.php:54
+msgid "View details"
+msgstr ""
+
+#: admin/licence/Puc/v4p4/Plugin/Ui.php:77
+#, php-format
+msgid "More information about %s"
+msgstr ""
+
+#: admin/licence/Puc/v4p4/Plugin/Ui.php:128
+msgid "Check for updates"
+msgstr ""
+
+#: admin/licence/Puc/v4p4/Plugin/Ui.php:213
+#, php-format
+msgctxt "the plugin title"
+msgid "The %s plugin is up to date."
+msgstr ""
+
+#: admin/licence/Puc/v4p4/Plugin/Ui.php:215
+#, php-format
+msgctxt "the plugin title"
+msgid "A new version of the %s plugin is available."
+msgstr ""
+
+#: admin/licence/Puc/v4p4/Plugin/Ui.php:217
+#, php-format
+msgctxt "the plugin title"
+msgid "Could not determine if updates are available for %s."
+msgstr ""
+
+#: admin/licence/Puc/v4p4/Plugin/Ui.php:223
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: admin/options-init.php:23 admin/options-init.php:24
+msgid "Orders on Whatsapp"
+msgstr ""
+
+#: admin/options-init.php:124
+msgid "Information"
+msgstr ""
+
+#: admin/options-init.php:125
+msgid "<p>Need support? Please email us at admin@xperts.club.</p>"
+msgstr ""
+
+#: admin/options-init.php:153
+msgid "These are really General fields!"
+msgstr ""
+
+#: admin/options-init.php:159
+msgid "General"
+msgstr ""
+
+#: admin/options-init.php:168
+msgid "Enable"
+msgstr ""
+
+#: admin/options-init.php:169 admin/options-init.php:267
+msgid "Enable Orders on Whatsapp options below"
+msgstr ""
+
+#: admin/options-init.php:174
+msgid "Enable Category Products"
+msgstr ""
+
+#: admin/options-init.php:175
+msgid "Enable Orders on Whatsapp in category pages"
+msgstr ""
+
+#: admin/options-init.php:180
+msgid "Remove add to cart button"
+msgstr ""
+
+#: admin/options-init.php:181
+msgid "Removes the add to cart button on single product and category pages."
+msgstr ""
+
+#: admin/options-init.php:188
+msgid "Remove price"
+msgstr ""
+
+#: admin/options-init.php:189
+msgid "Removes price on single product and category pages."
+msgstr ""
+
+#: admin/options-init.php:196
+msgid "Redirect Cart / Checkout Page"
+msgstr ""
+
+#: admin/options-init.php:197
+msgid "Redirects the cart and checkout page to another page."
+msgstr ""
+
+#: admin/options-init.php:202
+msgid "Select Page"
+msgstr ""
+
+#: admin/options-init.php:203
+msgid "Redirects the cart and checkout page to"
+msgstr ""
+
+#: admin/options-init.php:214
+msgid "Hide WhatsApp button on Desktops"
+msgstr ""
+
+#: admin/options-init.php:215 admin/options-init.php:506
+msgid "Larger Than : 786px"
+msgstr ""
+
+#: admin/options-init.php:221
+msgid "Hide WhatsApp button on Mobiles"
+msgstr ""
+
+#: admin/options-init.php:222 admin/options-init.php:513
+msgid "Smaller Than : 785px"
+msgstr ""
+
+#: admin/options-init.php:228
+msgid "WhatsApp"
+msgstr ""
+
+#: admin/options-init.php:236 admin/options-init.php:237
+msgid "Whatsapp Number"
+msgstr ""
+
+#: admin/options-init.php:242 admin/options-init.php:497
+msgid "Default Message"
+msgstr ""
+
+#: admin/options-init.php:243
+msgid "Available placeholder {product_name}, {product_price}, {product_link}"
+msgstr ""
+
+#: admin/options-init.php:249
+msgid "Button Text"
+msgstr ""
+
+#: admin/options-init.php:250
+msgid "Buy on whatsapp"
+msgstr ""
+
+#: admin/options-init.php:257
+msgid "WhatsApp Cart"
+msgstr ""
+
+#: admin/options-init.php:261
+msgid ""
+"Instead of the checkout Process, your customers will see a “Buy on WhatsApp” "
+"button on the cart page, where they can send you a WhatsApp message with all "
+"the products they have in their current cart."
+msgstr ""
+
+#: admin/options-init.php:266
+msgid "Enable WhatsApp Cart"
+msgstr ""
+
+#: admin/options-init.php:268
+msgid ""
+"If you enable the WhatsApp Cart Make sure you have not enabled to remove the "
+"add to cart button in general settings. Add to cart changes to Add to "
+"WhatsApp Cart"
+msgstr ""
+
+#: admin/options-init.php:273
+msgid "Add to cart button text"
+msgstr ""
+
+#: admin/options-init.php:280
+msgid "Buy on WhatsApp button text"
+msgstr ""
+
+#: admin/options-init.php:282
+msgid "This button display on cart page instead of the checkout button"
+msgstr ""
+
+#: admin/options-init.php:288
+msgid "WhatsApp cart message prefix text"
+msgstr ""
+
+#: admin/options-init.php:290
+msgid "This message display on whatsapp message before cart products"
+msgstr ""
+
+#: admin/options-init.php:297
+msgid "WhatsApp cart product details includes"
+msgstr ""
+
+#: admin/options-init.php:298
+msgid "select what product fields are included on whatsapp cart message"
+msgstr ""
+
+#: admin/options-init.php:300
+msgid "Quantity"
+msgstr ""
+
+#: admin/options-init.php:301
+msgid "Product Name"
+msgstr ""
+
+#: admin/options-init.php:302
+msgid "Line Total"
+msgstr ""
+
+#: admin/options-init.php:303
+msgid "Product Link"
+msgstr ""
+
+#: admin/options-init.php:304
+msgid "Cart Total"
+msgstr ""
+
+#: admin/options-init.php:313
+msgid "WhatsApp cart message suffix text"
+msgstr ""
+
+#: admin/options-init.php:315
+msgid "This message display on whatsapp message after cart products"
+msgstr ""
+
+#: admin/options-init.php:321
+msgid "Remove Coupons from Cart"
+msgstr ""
+
+#: admin/options-init.php:327
+msgid "Remove Cart Cross Sells"
+msgstr ""
+
+#: admin/options-init.php:332
+msgid ""
+"cart will be cleared once user clicks on \"Buy on WhatsApp\" button on cart "
+"page."
+msgstr ""
+
+#: admin/options-init.php:339
+msgid "Limitations"
+msgstr ""
+
+#: admin/options-init.php:347
+msgid "Apply for users"
+msgstr ""
+
+#: admin/options-init.php:348
+msgid "Select user group, where the plugin should apply."
+msgstr ""
+
+#: admin/options-init.php:360
+msgid "Exclude User Roles"
+msgstr ""
+
+#: admin/options-init.php:361
+msgid "Select user roles, where the plugin should NOT apply."
+msgstr ""
+
+#: admin/options-init.php:372
+msgid "Exclude Products"
+msgstr ""
+
+#: admin/options-init.php:373
+msgid "Select Products, where the plugin should NOT apply."
+msgstr ""
+
+#: admin/options-init.php:385
+msgid "Typography"
+msgstr ""
+
+#: admin/options-init.php:393
+msgid "Whatsapp button typography"
+msgstr ""
+
+#: admin/options-init.php:401
+msgid ""
+"Whatsapp button typography option with each property can be called "
+"individually."
+msgstr ""
+
+#: admin/options-init.php:406
+msgid "Whatsapp button background color"
+msgstr ""
+
+#: admin/options-init.php:407
+msgid "Pick whatsapp button background color."
+msgstr ""
+
+#: admin/options-init.php:415
+msgid "Whatsapp button hover color"
+msgstr ""
+
+#: admin/options-init.php:416
+msgid "Pick whatsapp button hover color."
+msgstr ""
+
+#: admin/options-init.php:424
+msgid "Whatsapp text color"
+msgstr ""
+
+#: admin/options-init.php:425
+msgid "Pick whatsapp text color."
+msgstr ""
+
+#: admin/options-init.php:435
+msgid "Whatsapp text hover color"
+msgstr ""
+
+#: admin/options-init.php:436
+msgid "Pick whatsapp text hover color."
+msgstr ""
+
+#: admin/options-init.php:450 admin/options-init.php:452
+msgid "Flouting Button Settings"
+msgstr ""
+
+#: admin/options-init.php:458
+msgid "Flouting Button"
+msgstr ""
+
+#: admin/options-init.php:466
+msgid "Display floating button"
+msgstr ""
+
+#: admin/options-init.php:467
+msgid "Display Whatsapp button on website bottom left or right corner"
+msgstr ""
+
+#: admin/options-init.php:472
+msgid "Use different WhatsApp number for floating button"
+msgstr ""
+
+#: admin/options-init.php:478
+msgid "Floating button WhatsApp number"
+msgstr ""
+
+#: admin/options-init.php:484
+msgid "Floating button position on screen"
+msgstr ""
+
+#: admin/options-init.php:485
+msgid "Select Whatsapp button on website bottom left or right corner"
+msgstr ""
+
+#: admin/options-init.php:487
+msgid "Left bottom"
+msgstr ""
+
+#: admin/options-init.php:488
+msgid "Right bottom"
+msgstr ""
+
+#: admin/options-init.php:505
+msgid "Hide Floating button on Desktops"
+msgstr ""
+
+#: admin/options-init.php:512
+msgid "Hide Floating button on Mobiles"
+msgstr ""
+
+#: admin/options-init.php:521
+msgid "Styles"
+msgstr ""
+
+#: admin/options-init.php:529
+msgid "Floating button background color"
+msgstr ""
+
+#: admin/options-init.php:530
+msgid "Pick floating button background color."
+msgstr ""
+
+#: admin/options-init.php:538
+msgid "Floating button hover color"
+msgstr ""
+
+#: admin/options-init.php:539
+msgid "Pick floting button hover color."
+msgstr ""
+
+#: admin/options-init.php:547
+msgid "Floating button icon color"
+msgstr ""
+
+#: admin/options-init.php:548
+msgid "Pick floating button icon color."
+msgstr ""
+
+#: admin/options-init.php:558
+msgid "Floating button icon hover color"
+msgstr ""
+
+#: admin/options-init.php:559
+msgid "Pick floating button icon hover color."
+msgstr ""
+
+#: public/class-xc-woo-whatsapp-order-public.php:499
+msgid "Hi, I would like to buy the following products."
+msgstr ""
+
+#: public/class-xc-woo-whatsapp-order-public.php:504
+msgid "Thank you."
+msgstr ""
+
+#: public/class-xc-woo-whatsapp-order-public.php:518
+#, php-format
+msgid "Total : %s"
+msgstr ""
+
+#: xc-woo-whatsapp-order.php:117
+msgid ""
+"Woocommerce Orders on Whatsapp requires the WooCommerce & Redux Framework "
+"plugin. Please install or activate them before!"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Woocommerce Orders on Whatsapp"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wp.xperts.club/wooordersonwhatsapp/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Woocommerce Orders on Whatsapp allows your customers to contact you and chat "
+"via Whatsapp directly from your wordpress/woocommerce products pages to the "
+"mobile."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "XpertsClub"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://xperts.club/"
+msgstr ""

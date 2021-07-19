@@ -1,0 +1,129 @@
+2021-07-17T07:17:58+00:00 CRITICAL Uncaught Error: Call to a member function get_order_number() on string in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php:633
+Stack trace:
+#0 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(292): woo_custom_redirect_after_purchase('')
+#1 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\wp-bacola\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wp-bacola\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\laragon\www\wp-bacola\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wp-bacola\index.php(17): require('C:\\laragon\\www\\...')
+#6 {main}
+  thrown in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 633
+
+2021-07-17T07:54:22+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on string in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php:641
+Stack trace:
+#0 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(292): woo_custom_redirect_after_purchase('')
+#1 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\wp-bacola\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wp-bacola\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\laragon\www\wp-bacola\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wp-bacola\index.php(17): require('C:\\laragon\\www\\...')
+#6 {main}
+  thrown in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 641
+
+2021-07-17T07:54:45+00:00 CRITICAL Uncaught Error: Call to a member function get_order_number() on string in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php:641
+Stack trace:
+#0 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(292): woo_custom_redirect_after_purchase('')
+#1 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\wp-bacola\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wp-bacola\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\laragon\www\wp-bacola\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wp-bacola\index.php(17): require('C:\\laragon\\www\\...')
+#6 {main}
+  thrown in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 641
+
+2021-07-17T07:55:11+00:00 CRITICAL Uncaught Error: Call to a member function get_order_number() on string in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php:641
+Stack trace:
+#0 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(292): woo_custom_redirect_after_purchase('')
+#1 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\wp-bacola\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wp-bacola\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\laragon\www\wp-bacola\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wp-bacola\index.php(17): require('C:\\laragon\\www\\...')
+#6 {main}
+  thrown in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 641
+
+2021-07-17T07:55:27+00:00 CRITICAL Uncaught Error: Call to a member function get_order_number() on null in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php:641
+Stack trace:
+#0 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(292): woo_custom_redirect_after_purchase('')
+#1 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\wp-bacola\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wp-bacola\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\laragon\www\wp-bacola\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wp-bacola\index.php(17): require('C:\\laragon\\www\\...')
+#6 {main}
+  thrown in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 641
+
+2021-07-17T07:55:31+00:00 CRITICAL Uncaught Error: Call to a member function get_order_number() on null in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php:641
+Stack trace:
+#0 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(292): woo_custom_redirect_after_purchase('')
+#1 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\wp-bacola\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wp-bacola\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\laragon\www\wp-bacola\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wp-bacola\index.php(17): require('C:\\laragon\\www\\...')
+#6 {main}
+  thrown in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 641
+
+2021-07-17T07:56:43+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on string in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php:641
+Stack trace:
+#0 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(292): woo_custom_redirect_after_purchase('')
+#1 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\wp-bacola\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wp-bacola\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\laragon\www\wp-bacola\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wp-bacola\index.php(17): require('C:\\laragon\\www\\...')
+#6 {main}
+  thrown in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 641
+
+2021-07-17T07:56:46+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on string in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php:641
+Stack trace:
+#0 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(292): woo_custom_redirect_after_purchase('')
+#1 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\wp-bacola\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wp-bacola\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\laragon\www\wp-bacola\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wp-bacola\index.php(17): require('C:\\laragon\\www\\...')
+#6 {main}
+  thrown in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 641
+
+2021-07-17T08:52:52+00:00 CRITICAL Object of class stdClass could not be converted to string in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 666
+
+2021-07-17T08:53:04+00:00 CRITICAL Object of class stdClass could not be converted to string in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 666
+
+2021-07-17T08:55:25+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function action_checkout_order_processed(), 1 passed in C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php on line 292 and exactly 3 expected in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php:655
+Stack trace:
+#0 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(292): action_checkout_order_processed('')
+#1 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\wp-bacola\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wp-bacola\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\laragon\www\wp-bacola\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wp-bacola\index.php(17): require('C:\\laragon\\www\\...')
+#6 {main}
+  thrown in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 655
+
+2021-07-17T08:55:58+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function action_checkout_order_processed(), 1 passed in C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php on line 292 and exactly 2 expected in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php:655
+Stack trace:
+#0 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(292): action_checkout_order_processed('')
+#1 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\wp-bacola\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wp-bacola\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\laragon\www\wp-bacola\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wp-bacola\index.php(17): require('C:\\laragon\\www\\...')
+#6 {main}
+  thrown in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 655
+
+2021-07-17T08:56:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function action_checkout_order_processed(), 1 passed in C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php on line 292 and exactly 2 expected in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php:655
+Stack trace:
+#0 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(292): action_checkout_order_processed('')
+#1 C:\laragon\www\wp-bacola\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#2 C:\laragon\www\wp-bacola\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\laragon\www\wp-bacola\wp-includes\template-loader.php(13): do_action('template_redire...')
+#4 C:\laragon\www\wp-bacola\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#5 C:\laragon\www\wp-bacola\index.php(17): require('C:\\laragon\\www\\...')
+#6 {main}
+  thrown in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 655
+
+2021-07-17T09:06:01+00:00 CRITICAL Object of class stdClass could not be converted to string in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 666
+
+2021-07-17T09:06:12+00:00 CRITICAL Object of class stdClass could not be converted to string in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 666
+

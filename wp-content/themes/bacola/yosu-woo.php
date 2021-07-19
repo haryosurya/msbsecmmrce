@@ -36,7 +36,10 @@
    
    *Nama:* {{first_name}} {{last_name}}
    *Telepon:* {{phone}}
-   *Alamat Kirim:* {{address_1}} {{address_2}}
+   *Alamat Kirim:* 
+   {{address_1}} {{address_2}} , {{city}}
+   {{postcode}},
+   {{state}}
    *Catatan:*
    {{note}}
    
@@ -88,7 +91,7 @@
             'billing' => $this->set_address( $posted_data ),
             'shipping' => $this->set_address( $posted_data, 'shipping' )
          );
-         $fields = array( 'first_name', 'last_name', 'address_1', 'address_2', 'email', 'phone', 'note' );
+         $fields = array( 'first_name', 'last_name', 'address_1', 'address_2', 'city', 'postcode', 'state', 'email', 'phone', 'note' );
          $wa_message = $this->wa_message_template;
          if( $wa_message != '' ) {
             foreach( $fields as $f ) {
@@ -214,7 +217,7 @@
               $txt .= $shippings['address'];
           } else {
               $txt .= "\n";
-              $txt .= "*Total Harga Belum Termasuk Ongkos Kirim.*";
+              $txt .= "*Total Harga* _(Belum Termasuk Ongkos Kirim.)_";
           }
           
           $txt .= "\n";

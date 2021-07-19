@@ -4473,7 +4473,8 @@ button, .button, input[type=submit], .submit {
     width: 100%;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; }
+            justify-content: center; 
+          text-align: center;}
   button.button-text, .button.button-text, input[type=submit].button-text, .submit.button-text {
     padding: 0;
     height: auto;

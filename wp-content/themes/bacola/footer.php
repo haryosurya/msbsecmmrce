@@ -187,10 +187,10 @@
 			</div>
 		</div>
 		
+
 	</footer>
 	
 	<div class="site-overlay"></div>
-
 	<?php wp_footer(); ?>
 	</body>
 </html>

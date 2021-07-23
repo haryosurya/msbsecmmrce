@@ -433,5 +433,4 @@
     $(window).scroll(function() {
         $(this).scrollTop() > 135 ? $("header.site-header").addClass("sticky-header") : $("header.site-header").removeClass("sticky-header")
     });
-
 }(jQuery));

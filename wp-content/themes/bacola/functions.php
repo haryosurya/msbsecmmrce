@@ -621,8 +621,24 @@ function bacola_get_option(){
 	return esc_html($getopt);
 }
 /*************************************************
-## redirect wa
+## yosu customize
 *************************************************/
+
+
+// function my_custom_login_stylesheet() {
+//     wp_enqueue_style( 'custom-login', get_stylesheet_directory_uri() . '/custom-login.css' );
+// 	echo '
+//     <style type="text/css">
+// 	#login h1 a, .login h1 a { background-image: url('.esc_url( wp_get_attachment_url(get_theme_mod( 'bacola_logo' ))).'); height: 65 px; width: 320px; background-size: 320px 65px; background-repeat: no-repeat; margin: 0 auto;  }
+//     </style>'.
+// 	''
+//  ;
+// }
+
+//This loads the function above on the login page
+// add_action( 'login_enqueue_scripts', 'my_custom_login_stylesheet' );
+
+
 
 
 function isMobile() {
@@ -638,32 +654,314 @@ function wooWhatsAppAdminPage()
 {
    require_once get_template_directory() .'/includes/admin-display.php';
 }
-// add_action('template_redirect', 'action_checkout_order_processed');
-// function action_checkout_order_processed( $order_id ) { 
-//    // get an instance of the order object
-// 	global $wp;
-// 	global $woocommerce;
-// 	if ( is_checkout() && !empty( $wp->query_vars['order-received'] ) ) {
 
-// 		$order =  $order_id;
-// 		$id=WC()->order->id;
-// 		$content = json_decode($order).$id;
-// 		$phoneNumber = get_option('woo_wa_phone_number');
+
+function my_login_logo() { 
+	echo '
+    <style type="text/css">
+	.login h1{margin-bottom:-20px;}
+	#login h1 a, .login h1 a { background-image: url('.esc_url( wp_get_attachment_url(get_theme_mod( 'bacola_logo' ))).'); height: 65 px; width: 320px; background-size: 320px 65px; background-repeat: no-repeat; margin: 0 auto;  }
+	body.login {
+		position: relative;
+		height: 100%;
+		background-image: url("https://i.imgur.com/UP7fWfg.jpg");
+		background-size: cover;
+		overflow: auto;
+		font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	}
+	.login label, .login #backtoblog a, .login #nav a{color:#fff}
+	#loginform {background: linear-gradient(to bottom, rgba(146, 135, 187, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);border:none;}
+	.login #login_error, .login .message, .login .success ,.login form {
+		position: relative;
+		height: 100%;
+		background: -webkit-linear-gradient(top, rgba(146, 135, 187, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
+		background: linear-gradient(to bottom, rgba(146, 135, 187, 0.8) 0%, rgba(0, 0, 0, 0.6) 100%);
+		-webkit-transition: opacity 0.1s, -webkit-transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+		transition: opacity 0.1s, transform 0.3s cubic-bezier(0.17, -0.65, 0.665, 1.25);
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
 		
-// 		// If the user is on a mobile device, redirect them
-// 		if(isMobile()){
-// 				$link = "https://wa.me/.'$phoneNumber'.?text=$content";
-// 		}
-// 		else{
-// 				$link = "https://web.whatsapp.com/send?phone=.'$phoneNumber'.&text=$content";
-// 		}
+		
+	}
 
-//    // Do something
-// 		header("Location: $link");
-// 		exit;
-// 	}
-   
+	body.login div#login form#loginform p.submit input#wp-submit  {
+		position: relative;
+		width: 100%;
+		height: 4rem;
+		margin: 5rem 0 2.2rem;
+		color: rgba(255, 255, 255, 0.8);
+		background: #28d214;
+		font-size: 1.5rem;
+		/* border-radius: 3rem; */
+		cursor: pointer;
+		overflow: hidden;
+		-webkit-transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+				transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+	  }
+	  body.login div#login form#loginform p.submit input#wp-submit:after {
+		content: "";
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin-left: -1.5rem;
+		margin-top: -1.5rem;
+		width: 3rem;
+		height: 3rem;
+		border: 2px dotted #fff;
+		border-radius: 50%;
+		border-left: none;
+		border-bottom: none;
+		-webkit-animation: rotate 0.5s infinite linear;
+				animation: rotate 0.5s infinite linear;
+		-webkit-transition: opacity 0.1s 0.4s;
+				transition: opacity 0.1s 0.4s;
+		opacity: 0;
+	  }
+	  body.login div#login form#loginform p.submit input#wp-submit.processing {
+		width: 4rem;
+		font-size: 0;
+	  }
+	  body.login div#login form#loginform p.submit input#wp-submit.processing:after {
+		opacity: 1;
+	  }
+	  body.login div#login form#loginform p.submit input#wp-submit.success {
+		-webkit-transition: -webkit-transform 0.3s 0.1s ease-out, opacity 0.1s 0.3s, background-color 0.1s 0.3s;
+				transition: transform 0.3s 0.1s ease-out, opacity 0.1s 0.3s, background-color 0.1s 0.3s;
+		-webkit-transform: scale(30);
+			-ms-transform: scale(30);
+				transform: scale(30);
+		opacity: 0.9;
+	  }
+	  body.login div#login form#loginform p.submit input#wp-submit.success:after {
+		-webkit-transition: opacity 0.1s 0s;
+				transition: opacity 0.1s 0s;
+		opacity: 0;
+	  }
+    </style>'.
+	''
+ ;}
+add_action( 'login_enqueue_scripts', 'my_login_logo' );
+
+
+function my_login_logo_url() {
+    return home_url();
+}
+add_filter( 'login_headerurl', 'my_login_logo_url' );
+
+function my_login_logo_url_title() {
+	$bname = get_option('blogname')." ".get_option('blogdescription');
+    return $bname;
+}
+add_filter( 'login_headertitle', 'my_login_logo_url_title' );
+
+
+add_action('after_setup_theme', 'remove_admin_bar');
+function remove_admin_bar() {
+if (!current_user_can('administrator') && !is_admin()) {
+  show_admin_bar(false);
+}
+}
+
+// add_filter('site_url',  'login_filter', 10, 3);
+// function login_filter( $url, $path, $orig_scheme )
+// {
+//  $old  = array( "/(wp-login\.php)/");
+//  $new  = array( "login");
+//  return preg_replace( $old, $new, $url, 1);
 // }
+
+
+
+
+
+
+function mixano_load_scripts(){
+	
+		wp_enqueue_script( 'lazy', BACOLA_INDEX_JS . "/js/lazy.js", array( 'jquery' ), '', true ); //no need to prefix as it's 3rd party script
+		// wp_localize_script( 'lazy', 'mixano_object_name', $data );
+	// }
+	
+}
+add_action( 'wp_enqueue_scripts' , 'mixano_load_scripts' , 1 );
+
+function yosu_add_shadowlogin() {
+	//get htaccess file path
+	$htaccess_file = wp_normalize_path( ABSPATH . '.htaccess' );
+
+	if ( file_exists( $htaccess_file ) ) {
+		
+		$current_htaccess = file_get_contents( $htaccess_file );
+
+		//unique string
+		$unique = 'yosushadowlogin';
+		
+		$exists = false;
+
+		//code is already added
+		if ( strpos( $current_htaccess, $unique ) !== false ) {
+			$exists = true;
+		}
+		
+		//code is inexistent so we add it
+		if ( ! $exists ) {
+
+			$sdlogin  = "\n";
+			$sdlogin .= '# yosushadowlogin BEGIN Hide login page' . "\n";
+			$sdlogin .= '<IfModule mod_expires.c>' . "\n";
+			$sdlogin .= 'RewriteRule ^mylogin$ https://%{SERVER_NAME}/wp-login.php?key=123&redirect_to=https://%{SERVER_NAME}/wp-admin/index.php [L]' . "\n";
+			$sdlogin .= 'RewriteCond %{HTTP_REFERER} !^https://%{SERVER_NAME}/wp-admin' . "\n";
+			$sdlogin .= 'RewriteCond %{HTTP_REFERER} !^https://%{SERVER_NAME}/wp-login.php' . "\n";
+			$sdlogin .= 'RewriteCond %{HTTP_REFERER} !^https://%{SERVER_NAME}/login' . "\n";
+			$sdlogin .= 'RewriteCond %{QUERY_STRING} !^key=123' . "\n";
+			$sdlogin .= 'RewriteCond %{QUERY_STRING} !^action=logout' . "\n";
+			$sdlogin .= 'RewriteCond %{QUERY_STRING} !^action=lostpassword' . "\n";
+			$sdlogin .= 'RewriteCond %{REQUEST_METHOD} !POST' . "\n";
+			$sdlogin .= '</IfModule>' . "\n";
+			$sdlogin  = "\n";
+			$sdlogin .= '# END Hide login page yosushadowlogin' . "\n";
+
+			if ( is_readable( $htaccess_file ) && is_writable( $htaccess_file ) ) {
+				$final_htaccess = '';
+				$final_htaccess .= $current_htaccess.$sdlogin;
+				file_put_contents( $htaccess_file, $final_htaccess );
+			}
+		
+		}
+	
+	} //enf if htaccess_file exists
+}
+yosu_add_shadowlogin();
+
+
+function yosu_add_leverage_broswer_caching() {
+	//get htaccess file path
+	$htaccess_file = wp_normalize_path( ABSPATH . '.htaccess' );
+
+	if ( file_exists( $htaccess_file ) ) {
+		
+		$current_htaccess = file_get_contents( $htaccess_file );
+
+		//unique string
+		$unique = 'yosuBROWSERCACHE';
+		
+		$exists = false;
+
+		//code is already added
+		if ( strpos( $current_htaccess, $unique ) !== false ) {
+			$exists = true;
+		}
+		
+		//code is inexistent so we add it
+		if ( ! $exists ) {
+
+			$expires  = "\n";
+			$expires .= '# yosuBROWSERCACHESTART Browser Caching' . "\n";
+			$expires .= '<IfModule mod_expires.c>' . "\n";
+			$expires .= 'ExpiresActive On' . "\n";
+			$expires .= 'ExpiresByType image/gif "access 1 year"' . "\n";
+			$expires .= 'ExpiresByType image/jpg "access 1 year"' . "\n";
+			$expires .= 'ExpiresByType image/jpeg "access 1 year"' . "\n";
+			$expires .= 'ExpiresByType image/png "access 1 year"' . "\n";
+			$expires .= 'ExpiresByType image/x-icon "access 1 year"' . "\n";
+			$expires .= 'ExpiresByType text/css "access 1 month"' . "\n";
+			$expires .= 'ExpiresByType text/javascript "access 1 month"' . "\n";
+			$expires .= 'ExpiresByType text/html "access 1 month"' . "\n";
+			$expires .= 'ExpiresByType application/javascript "access 1 month"' . "\n";
+			$expires .= 'ExpiresByType application/x-javascript "access 1 month"' . "\n";
+			$expires .= 'ExpiresByType application/xhtml-xml "access 1 month"' . "\n";
+			$expires .= 'ExpiresByType application/pdf "access 1 month"' . "\n";
+			$expires .= 'ExpiresByType application/x-shockwave-flash "access 1 month"' . "\n";
+			$expires .= 'ExpiresDefault "access 1 month"' . "\n";
+			$expires .= '</IfModule>' . "\n";
+			$expires .= '# END Caching yosuBROWSERCACHEEND' . "\n";
+
+			if ( is_readable( $htaccess_file ) && is_writable( $htaccess_file ) ) {
+				$final_htaccess = '';
+				$final_htaccess .= $current_htaccess.$expires;
+				file_put_contents( $htaccess_file, $final_htaccess );
+			}
+		
+		}
+	
+	} //enf if htaccess_file exists
+}
+yosu_add_leverage_broswer_caching();
+
+
+
+
+function yosu_enable_gzip() {
+	//get htaccess file path
+	$htaccess_file = wp_normalize_path( ABSPATH . '.htaccess' );
+
+	if ( file_exists( $htaccess_file ) ) {
+		
+		$current_htaccess = file_get_contents( $htaccess_file );
+
+		//unique string
+		$unique = 'yosuGZIPSTART';
+		
+		$exists = false;
+
+		//code is already added
+		if ( strpos( $current_htaccess, $unique ) !== false ) {
+			$exists = true;
+		}
+		
+		//code is inexistent so we add it
+		if ( ! $exists ) {
+
+			$gzip  = "\n";
+			$gzip .= '# yosuGZIPSTART' . "\n";
+			$gzip .= '<IfModule mod_deflate.c>' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE application/javascript' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE application/rss+xml' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE application/vnd.ms-fontobject' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE application/x-font' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE application/x-font-opentype' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE application/x-font-otf' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE application/x-font-truetype' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE application/x-font-ttf' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE application/x-javascript' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE application/xhtml+xml' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE application/xml' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE font/opentype' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE font/otf' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE font/ttf' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE image/svg+xml' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE image/x-icon' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE text/css' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE text/html' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE text/javascript' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE text/plain' . "\n";
+			$gzip .= 'AddOutputFilterByType DEFLATE text/xml' . "\n";
+			$gzip .= '</IfModule>' . "\n";
+			$gzip .= '# yosuGZIPEND' . "\n";
+
+			if ( is_readable( $htaccess_file ) && is_writable( $htaccess_file ) ) {
+				$final_htaccess = '';
+				$final_htaccess .= $current_htaccess.$gzip;
+				file_put_contents( $htaccess_file, $final_htaccess );
+			}
+		
+		}
+	
+	} //enf if htaccess_file exists
+}
+yosu_enable_gzip();
+
+
+/*************************************************
+## yosu customize
+*************************************************/
+
+
+
+
+
+
+
 /*************************************************
 ## Bacola Theme options
 *************************************************/

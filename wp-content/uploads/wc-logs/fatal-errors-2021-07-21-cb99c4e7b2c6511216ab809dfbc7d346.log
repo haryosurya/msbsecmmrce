@@ -1,0 +1,12 @@
+2021-07-21T03:00:16+00:00 CRITICAL syntax error, unexpected 'px' (T_STRING) in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 647
+
+2021-07-21T03:00:17+00:00 CRITICAL syntax error, unexpected 'px' (T_STRING) in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 647
+
+2021-07-21T03:03:25+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 649
+
+2021-07-21T03:03:27+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 649
+
+2021-07-21T03:16:34+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ';' in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 660
+
+2021-07-21T03:22:52+00:00 CRITICAL syntax error, unexpected '" "' (T_CONSTANT_ENCAPSED_STRING) in C:\laragon\www\wp-bacola\wp-content\themes\bacola\functions.php on line 659
+

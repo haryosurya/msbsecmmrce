@@ -623,7 +623,27 @@ function bacola_get_option(){
 /*************************************************
 ## yosu customize
 *************************************************/
+/**
 
+* Add custom field to the checkout page
+
+*/
+
+add_action('woocommerce_after_order_notes', 'custom_checkout_field');
+function custom_checkout_field($checkout)
+{
+echo '<div id="custom_checkout_field"><h2>' . __('New Heading') . '</h2>';
+woocommerce_form_field('custom_field_name', array(
+'type' => 'text',
+'class' => array(
+'my-field-class form-row-wide'
+) ,
+'label' => __('Custom Additional Field') ,
+'placeholder' => __('New Custom Field') ,
+) ,
+$checkout->get_value('custom_field_name'));
+echo '</div>';
+}
 
 // function my_custom_login_stylesheet() {
 //     wp_enqueue_style( 'custom-login', get_stylesheet_directory_uri() . '/custom-login.css' );
@@ -951,6 +971,21 @@ function yosu_enable_gzip() {
 }
 yosu_enable_gzip();
 
+add_filter( 'woocommerce_cart_total', 'custom_total_message' );
+function custom_total_message( $price ) {
+    $msg = '<br><a style="color:#ea3319;">Harga Belum termasuk ongkir.</a><br />';
+
+    return $price . $msg;
+}
+
+add_action('woocommerce_before_checkout_form', 'my_custom_message');
+function my_custom_message() {
+	$pesannya = '';
+    if ( ! is_user_logged_in() ) {
+        // wc_print_notice( __('This is my custom message'), 'asaasa' );
+		echo '<div class="woocommerce-form-coupon-toggle"> <div class="woocommerce-info"> Dapatkan Promo Menarik dengan cara Register <a href="'.site_url('/my-account-2/', 'https' ).'" class="">Klik di sini </a>untuk register	</div> </div>';
+    }
+}
 
 /*************************************************
 ## yosu customize

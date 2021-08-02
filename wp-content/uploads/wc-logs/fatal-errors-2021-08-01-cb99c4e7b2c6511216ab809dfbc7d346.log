@@ -1,0 +1,32 @@
+2021-08-01T18:00:49+00:00 CRITICAL Uncaught Error: Class 'bacola_main_walker' not found in /home/h/07msbs/wp-content/themes/bacola/includes/header/models/canvas-menu.php:52
+Stack trace:
+#0 /home/h/07msbs/wp-includes/template.php(732): require()
+#1 /home/h/07msbs/wp-includes/template.php(676): load_template()
+#2 /home/h/07msbs/wp-includes/general-template.php(204): locate_template()
+#3 /home/h/07msbs/wp-content/themes/bacola/header.php(38): get_template_part()
+#4 /home/h/07msbs/wp-includes/template.php(730): require_once('/home/h/07msbs/...')
+#5 /home/h/07msbs/wp-includes/template.php(676): load_template()
+#6 /home/h/07msbs/wp-includes/general-template.php(48): locate_template()
+#7 /home/h/07msbs/wp-content/themes/bacola/page.php(10): get_header()
+#8 /home/h/07msbs/wp-includes/template-loader.php(106): include('/home/h/07msbs/...')
+#9 /home/h/07msbs/wp-blog-header.php(19): require_once('/home/h/07msbs/...')
+#10 /home/h/07msbs/index.php(17): require('/home/h/07msbs/...')
+#11 {main}
+  thrown di /home/h/07msbs/wp-content/themes/bacola/includes/header/models/canvas-menu.php pada baris 52
+
+2021-08-01T18:00:54+00:00 CRITICAL Uncaught Error: Class 'bacola_main_walker' not found in /home/h/07msbs/wp-content/themes/bacola/includes/header/models/canvas-menu.php:52
+Stack trace:
+#0 /home/h/07msbs/wp-includes/template.php(732): require()
+#1 /home/h/07msbs/wp-includes/template.php(676): load_template()
+#2 /home/h/07msbs/wp-includes/general-template.php(204): locate_template()
+#3 /home/h/07msbs/wp-content/themes/bacola/header.php(38): get_template_part()
+#4 /home/h/07msbs/wp-includes/template.php(730): require_once('/home/h/07msbs/...')
+#5 /home/h/07msbs/wp-includes/template.php(676): load_template()
+#6 /home/h/07msbs/wp-includes/general-template.php(48): locate_template()
+#7 /home/h/07msbs/wp-content/themes/bacola/page.php(10): get_header()
+#8 /home/h/07msbs/wp-includes/template-loader.php(106): include('/home/h/07msbs/...')
+#9 /home/h/07msbs/wp-blog-header.php(19): require_once('/home/h/07msbs/...')
+#10 /home/h/07msbs/index.php(17): require('/home/h/07msbs/...')
+#11 {main}
+  thrown di /home/h/07msbs/wp-content/themes/bacola/includes/header/models/canvas-menu.php pada baris 52
+

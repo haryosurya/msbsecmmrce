@@ -1,0 +1,600 @@
+2021-07-23T03:32:38+00:00 CRITICAL Uncaught Error: Call to undefined function Elementor\bacola_sanitize_data() in /home/h/07msbs/wp-content/plugins/bacola-core/elementor/widgets/bacola-banner-box3.php:627
+Stack trace:
+#0 /home/h/07msbs/wp-content/plugins/elementor/includes/base/controls-stack.php(1892): Elementor\Bacola_Banner_Box3_Widget->render()
+#1 /home/h/07msbs/wp-content/plugins/elementor/includes/base/widget-base.php(565): Elementor\Controls_Stack->render_by_mode()
+#2 /home/h/07msbs/wp-content/plugins/elementor/includes/base/widget-base.php(707): Elementor\Widget_Base->render_content()
+#3 /home/h/07msbs/wp-content/plugins/elementor/includes/base/element-base.php(650): Elementor\Widget_Base->print_content()
+#4 /home/h/07msbs/wp-content/plugins/elementor/includes/base/element-base.php(911): Elementor\Element_Base->print_element()
+#5 /home/h/07msbs/wp-content/plugins/elementor/includes/base/element-base.php(650): Elementor\Element_Base->print_content()
+#6 /home/h/07msbs/wp-content/plugins/elementor/includes/base/element-base.php(911): Elem di /home/h/07msbs/wp-content/plugins/bacola-core/elementor/widgets/bacola-banner-box3.php pada baris 627
+
+2021-07-23T03:33:10+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1022): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T03:33:17+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(952): Merlin_Logger->debug()
+#5 /home/h/ di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T03:33:30+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1154): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T03:33:36+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1243): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T03:33:40+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1323): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T04:27:22+00:00 CRITICAL Uncaught Error: Call to undefined function bacola_location() in /home/h/07msbs/wp-content/themes/bacola/includes/header/models/canvas-menu.php:31
+Stack trace:
+#0 /home/h/07msbs/wp-includes/template.php(732): require()
+#1 /home/h/07msbs/wp-includes/template.php(676): load_template()
+#2 /home/h/07msbs/wp-includes/general-template.php(204): locate_template()
+#3 /home/h/07msbs/wp-content/themes/bacola/header.php(38): get_template_part()
+#4 /home/h/07msbs/wp-includes/template.php(730): require_once('/home/h/07msbs/...')
+#5 /home/h/07msbs/wp-includes/template.php(676): load_template()
+#6 /home/h/07msbs/wp-includes/general-template.php(48): locate_template()
+#7 /home/h/07msbs/wp-content/themes/bacola/page.php(10): get_header()
+#8 /home/h/07msbs/wp-includes/template-loader.php(106): include('/home/h/07msbs/...')
+#9 /home/h/07msbs/wp-blog-header.php(19): require_once('/home/h/07msbs/...')
+#10 /home/h/07msbs/index.php(17): require('/home/h/07msbs/...')
+#11 {main}
+  thrown di /home/h/07msbs/wp-content/themes/bacola/includes/header/models/canvas-menu.php pada baris 31
+
+2021-07-23T04:27:24+00:00 CRITICAL Uncaught Error: Call to undefined function bacola_location() in /home/h/07msbs/wp-content/themes/bacola/includes/header/models/canvas-menu.php:31
+Stack trace:
+#0 /home/h/07msbs/wp-includes/template.php(732): require()
+#1 /home/h/07msbs/wp-includes/template.php(676): load_template()
+#2 /home/h/07msbs/wp-includes/general-template.php(204): locate_template()
+#3 /home/h/07msbs/wp-content/themes/bacola/header.php(38): get_template_part()
+#4 /home/h/07msbs/wp-includes/template.php(730): require_once('/home/h/07msbs/...')
+#5 /home/h/07msbs/wp-includes/template.php(676): load_template()
+#6 /home/h/07msbs/wp-includes/general-template.php(48): locate_template()
+#7 /home/h/07msbs/wp-content/themes/bacola/page.php(10): get_header()
+#8 /home/h/07msbs/wp-includes/template-loader.php(106): include('/home/h/07msbs/...')
+#9 /home/h/07msbs/wp-blog-header.php(19): require_once('/home/h/07msbs/...')
+#10 /home/h/07msbs/index.php(17): require('/home/h/07msbs/...')
+#11 {main}
+  thrown di /home/h/07msbs/wp-content/themes/bacola/includes/header/models/canvas-menu.php pada baris 31
+
+2021-07-23T07:10:11+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(854): Merlin_Logger->debug()
+#5 /home/h/ di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T07:10:37+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1022): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T07:10:48+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(952): Merlin_Logger->debug()
+#5 /home/h/ di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T07:10:58+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1154): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T07:11:04+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1243): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T07:14:23+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(546): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(112): Monolog\Logger->info()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1783): Merlin_Logger->info()
+#5 /home/h/0 di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T07:14:25+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(546): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(112): Monolog\Logger->info()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1783): Merlin_Logger->info()
+#5 /home/h/0 di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T07:14:27+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(546): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(112): Monolog\Logger->info()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1783): Merlin_Logger->info()
+#5 /home/h/0 di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T07:14:29+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(546): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(112): Monolog\Logger->info()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1783): Merlin_Logger->info()
+#5 /home/h/0 di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T07:14:34+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1323): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:47:27+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(854): Merlin_Logger->debug()
+#5 /home/h/ di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:47:35+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1022): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:47:42+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(952): Merlin_Logger->debug()
+#5 /home/h/ di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:47:51+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1154): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:10+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:11+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:11+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:12+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:13+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:14+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:15+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:16+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:17+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:17+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:18+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:19+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:20+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:21+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:22+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:23+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:24+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:25+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:25+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:26+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:27+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:28+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:30+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:30+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:31+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:32+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:33+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:34+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:35+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:36+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:36+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:37+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:38+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:39+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:40+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:41+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:42+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1723): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:48:42+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1243): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:49:14+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(546): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(112): Monolog\Logger->info()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1783): Merlin_Logger->info()
+#5 /home/h/0 di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:49:16+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(546): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(112): Monolog\Logger->info()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1783): Merlin_Logger->info()
+#5 /home/h/0 di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:49:18+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(546): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(112): Monolog\Logger->info()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1783): Merlin_Logger->info()
+#5 /home/h/0 di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:49:20+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(546): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(112): Monolog\Logger->info()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1783): Merlin_Logger->info()
+#5 /home/h/0 di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+
+2021-07-23T18:49:25+00:00 CRITICAL Uncaught UnexpectedValueException: The stream or file "/home/h/07msbs/wp-content/uploads/merlin-wp/main.log" could not be opened: failed to open stream: Permission denied in /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write()
+#1 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle()
+#2 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Logger.php(532): Monolog\Logger->addRecord()
+#3 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/includes/class-merlin-logger.php(100): Monolog\Logger->debug()
+#4 /home/h/07msbs/wp-content/themes/bacola/includes/merlin/class-merlin.php(1323): Merlin_Logger->debug()
+#5 /home/h di /home/h/07msbs/wp-content/themes/bacola/includes/merlin/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php pada baris 107
+

@@ -6,6 +6,8 @@ require_once get_template_directory() . '/includes/main.php';
 //     exit;
 // }
 
+
+
 if( isset( $_GET[ 'tab' ] ) ) {
     $active_tab = $_GET[ 'tab' ];
 } else {
@@ -24,12 +26,9 @@ if (count($_POST) > 0) {
      
     }
     if (isset($_POST['woo_wa_phone_number']) && is_null($errorMessage)) {
-        if (!ctype_digit($_POST['woo_wa_phone_number'])) {
-            $errorMessage = 'WhatsApp Number must be numeric.';
-        } else {
-            $wooWhatsAppObject->setOption('woo_wa_phone_number', sanitize_text_field($_POST['woo_wa_phone_number']));
-            $success = true;
-        }
+        $wooWhatsAppObject->setOption('woo_wa_phone_number', sanitize_text_field(str_replace(array( '\'', '"',
+        ' ' , ';', '<', '>' , '+', '!', '-'), '',$_POST['woo_wa_phone_number'])));
+        $success = true;
     }
     if (isset($_POST['woo_wa_content']) && is_null($errorMessage)) {
         $wooWhatsAppObject->setOption('woo_wa_content', sanitize_text_field($_POST['woo_wa_content']));

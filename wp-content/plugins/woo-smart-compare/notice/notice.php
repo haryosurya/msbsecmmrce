@@ -16,8 +16,12 @@ if ( ! class_exists( 'THNotice' ) ) {
 		}
 
 		function admin_notice() {
-			global $current_user;
+			global $current_user, $current_screen;
 			$user_id = $current_user->ID;
+
+			if ( ! $current_screen || ! isset( $current_screen->base ) || ( strpos( $current_screen->base, 'wpclever' ) === false ) ) {
+				return;
+			}
 
 			if ( ! get_user_meta( $user_id, 'th_thunk_notice_ignore' ) ) {
 				?>
@@ -30,7 +34,7 @@ if ( ! class_exists( 'THNotice' ) ) {
                         </a>
                     </div>
                     <div class="wpc-notice-text">
-                        <h3>M Shop : ECOMMERCE WORDPRESS THEME</h3>
+                        <h3>M Shop - ECOMMERCE WORDPRESS THEME</h3>
                         <p>
                             M Shop is an eCommerce WordPress theme specially made for shopping business websites. Theme
                             is best suited for Fashion & Clothing store, furniture, grocery, clothing, electronic,
@@ -54,9 +58,10 @@ if ( ! class_exists( 'THNotice' ) ) {
                                 </a>
                             </li>
                             <li class="hide-message">
-                                <a href="?th_thunk_notice_ignore=1" class="dashicons-dismiss-icon">
+                                <a href="<?php echo admin_url( '?th_thunk_notice_ignore=1' ); ?>"
+                                   class="dashicons-dismiss-icon">
                                     <span class="dashicons dashicons-welcome-comments"></span>
-                                    Hide message
+                                    Hide Message
                                 </a>
                             </li>
                         </ul>

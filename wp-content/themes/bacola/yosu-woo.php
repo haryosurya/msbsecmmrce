@@ -85,8 +85,12 @@
       }	
       
       public function checkout_order_processed( $order_id, $posted_data, $order ) { 
-         //   $wa_send_number = $this->wa_number;        
-           $wa_send_number = get_option('woo_wa_phone_number');        
+         //   $wa_send_number = $this->wa_number;     
+         // $wa = [];
+         $wa= explode(",", get_option('woo_wa_phone_number'));
+         shuffle($wa);
+         $phones = $wa[0];
+         $wa_send_number = $phones;        
          $customer = array(
             'billing' => $this->set_address( $posted_data ),
             'shipping' => $this->set_address( $posted_data, 'shipping' )

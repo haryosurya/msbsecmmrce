@@ -3,8 +3,8 @@ Contributors: wpclever
 Donate link: https://wpclever.net
 Tags: woocommerce, woo, wpc, smart, compare, product-compare, smart-compare
 Requires at least: 4.0
-Tested up to: 5.7.2
-Stable tag: 3.6.0
+Tested up to: 5.8
+Stable tag: 3.7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -74,8 +74,8 @@ If you love our plugins, please give us a full five-star rating so that we know 
 
 To integrate with a theme, please use bellow filter to hide the default buttons.
 
-`add_filter( 'filter_wooscp_button_archive', '__return_false' );
-add_filter( 'filter_wooscp_button_single', '__return_false' );`
+`add_filter( 'woosc_button_position_archive', '__return_false' );
+add_filter( 'woosc_button_position_single', '__return_false' );`
 
 After that, use the shortcode to display the button where you want.
 
@@ -86,6 +86,9 @@ Example:
 `echo do_shortcode('[woosc id="99"]');`
 
 == Changelog ==
+
+= 3.7.0 =
+* Updated: Compatible with WordPress 5.8 & WooCommerce 5.5.1
 
 = 3.6.0 =
 * Fixed: Disable position selector when having the filter

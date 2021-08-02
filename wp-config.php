@@ -1,3 +1,5 @@
+
+
 <?php
 /**
  * The base configuration for WordPress
@@ -20,13 +22,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'wp-bacola' );
+define( 'DB_NAME', 'h_msbsdtbs' );
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 'h_msbsusr1' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', '' );
+define( 'DB_PASSWORD', '*g?SWnTd3^6wkz4LU5qs' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );

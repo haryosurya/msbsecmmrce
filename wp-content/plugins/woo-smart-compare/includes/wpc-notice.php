@@ -16,12 +16,16 @@ if ( ! class_exists( 'WPCleverNotice' ) ) {
 		}
 
 		function notice_scripts() {
-			wp_enqueue_style( 'wpclever-notice', WOOSCP_URI . 'assets/css/notice.css' );
+			wp_enqueue_style( 'wpclever-notice', WOOSC_URI . 'assets/css/notice.css' );
 		}
 
 		function admin_notice() {
-			global $current_user;
+			global $current_user, $current_screen;
 			$user_id = $current_user->ID;
+
+			if ( ! $current_screen || ! isset( $current_screen->base ) || ( strpos( $current_screen->base, 'wpclever' ) === false ) ) {
+				return;
+			}
 
 			if ( class_exists( 'THNotice' ) && ! get_user_meta( $user_id, 'th_thunk_notice_ignore', true ) ) {
 				return;
@@ -32,7 +36,7 @@ if ( ! class_exists( 'WPCleverNotice' ) ) {
                 <div class="wpclever-notice notice">
                     <div class="wpclever-notice-thumbnail">
                         <a href="https://wordpress.org/themes/wpcstore/" target="_blank">
-                            <img src="<?php echo WOOSCP_URI . 'assets/images/wpc-store.png'; ?>" alt="WPCstore"/>
+                            <img src="<?php echo WOOSC_URI . 'assets/images/wpc-store.png'; ?>" alt="WPCstore"/>
                         </a>
                     </div>
                     <div class="wpclever-notice-text">
@@ -57,7 +61,8 @@ if ( ! class_exists( 'WPCleverNotice' ) ) {
                                 </a>
                             </li>
                             <li class="hide-message">
-                                <a href="?wpclever_wpcstore_ignore=1" class="dashicons-dismiss-icon">
+                                <a href="<?php echo admin_url( '?wpclever_wpcstore_ignore=1' ); ?>"
+                                   class="dashicons-dismiss-icon">
                                     <span class="dashicons dashicons-welcome-comments"></span> Hide Message
                                 </a>
                             </li>
